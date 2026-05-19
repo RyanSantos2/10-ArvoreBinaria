@@ -153,7 +153,7 @@ int elementosArvore(NO* no)
 void exibirElementosArvore(NO* no)
 {
 	if(no == NULL){
-		return
+		return;
 	}
 	exibirElementosArvore(no->esq);
 	cout << no -> valor << endl;
